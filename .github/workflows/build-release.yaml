@@ -78,7 +78,7 @@ jobs:
           path: ${{ env.ASSET_NAME }}
 
   create-release:
-    name: Создание Релиза
+    name: Create Release
     needs: build
     runs-on: ubuntu-latest
     permissions:
